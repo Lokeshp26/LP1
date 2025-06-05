@@ -1,0 +1,185 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.main{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+}
+.container1{
+    width: 80%;
+}
+.section1{
+    background-image: url(images/Bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: auto;
+    width: 100vw;
+}
+.header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.header a{
+    font-family: Source Sans Pro;
+    font-size: 18px;
+    color: #ffffff;
+    text-decoration: none;
+}
+.header a:hover{
+    color: #ffffff;
+}
+.info-img{
+    padding-left: 80px;
+    padding-right: 50px; 
+    margin-top: 26px;
+}
+.banner-form-section{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.form-sec{
+    width: 432px;
+    background-color: #ffffff;
+    padding: 22px 40px 34px 34px;
+    margin-top: 30px;
+	border-radius: 6px;
+}
+.form-header{
+    color: #2c7de9;
+    font-size: 40px;
+    line-height: 44px;
+    font-family: Poppins;
+    font-weight: bold;
+    margin: 0px;
+}
+.form-sub{
+    color: #000000;
+    font-size: 24px;
+    line-height: 28px;
+    font-family: Poppins;
+    margin-bottom: 22px;
+}
+.inp-form{
+    border: 1px solid #d0d0d0;
+    margin-bottom: 16px;
+    padding: 16px;
+    width: 100%;
+}
+.recap{
+    margin-bottom: 26px;
+    width: 100% !important;
+}
+::placeholder {
+    color: black ;
+    font-size: 19px;
+    line-height: 22px;
+    font-family: Poppins;
+  }
+input{
+	font-size: 16px;
+}
+  button{
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+    width: 160px;
+    height: 52px;
+  }
+  button:hover{
+    backdrop-filter: blur(30px);
+    box-shadow: 0px 0px 30px rgba(rgb(0, 0, 0));
+    border: 2px solid rgba(rgb(0, 0, 0));
+    transform: scale(1.2);
+    transition: all .4s ease-in-out;
+}
+    .recap-wrapper {
+    width: 100%; /* Adjust the width as needed */
+    transform: scale(120%); /* Adjust the scale as needed */
+    transform-origin: 0 0; /* Align the top left */
+  }
+  .cont1{
+    font-family: Poppins;
+    font-size: 22px;
+    line-height: 36px;
+    color: #515151;
+  }
+
+  .section2{
+    background-color: #f5f5f5;
+    padding-bottom: 92px;
+  }
+  .sec2-heading{
+    padding-top: 56px;
+    padding-bottom: 24px;
+    font-family: Poppins;
+    font-size: 48px;
+    line-height: 56px;
+    color: #252f35;
+  }
+.br1{
+    border-bottom: 3px solid #edebeb; border-right: 3px solid #edebeb;
+}
+.br2{
+    border-bottom: 3px solid #edebeb;
+}
+.br5{
+    border-bottom: 0px solid #edebeb;
+}
+.section3{
+    background-color: #1786e8;
+    padding: 26px 0px;
+  }
+.footken{
+    padding-right: 30px;
+}
+.footken1{
+    padding-right: 30px;
+    border-left: 2px solid#3d3d3d;
+    border-right: 2px solid #3d3d3d;
+}
+.cont-inno{
+    font-family: Source Sans Pro;
+    font-size: 18px;
+    line-height: 26px;
+    color: #ffffff;
+}
+.pl-30{
+    padding-left: 30px !important;
+}
+.footer-section1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; 
+}
+.scoial-logo{
+    margin-right: 6px;
+}
+.scoial-logo1{
+    margin-right: 16px;
+}
+.section4{
+    background-color: #4a494a;
+    padding: 20px 0px;
+}
+.m0{
+    margin-bottom: 0px !important;
+}
+
+
+
